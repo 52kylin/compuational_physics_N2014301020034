@@ -1,5 +1,5 @@
 # compuational_physics_N2014301020034
-N [Exercise_01:Create a Github acount and set up a repositor  ](https://github.com/52kylin/compuational_physics_N2014301020034)  
+-[X][Exercise_01:Create a Github acount and set up a repositor  ](https://github.com/52kylin/compuational_physics_N2014301020034)  
 
 [Exercise_02:None](https://github.com/52kylin/compuational_physics_N2014301020034)  
 
