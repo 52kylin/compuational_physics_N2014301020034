@@ -1,6 +1,6 @@
 # compuational_physics_N2014301020034
 - [X] [Exercise_01:Create a Github acount and set up a repositor  ](https://github.com/52kylin/compuational_physics_N2014301020034/blob/Exercise_01/README.md)
-- [X] [Exercise_02:Print_my_name ](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_02:print_my_name)
+- [X] [Exercise_02:Print_my_name ](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/print_my_name.py)
 - [ ] [Exercise_03:All levels]()
 - [ ] [Exercise_04:Capter 1 proble1.5:The decay of two kinds of particles ]()
 - [ ] [Exercise_05:Capter 1 proble1.6:Population growth ]()
