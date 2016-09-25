@@ -24,6 +24,7 @@
 	i = os.system('cls')
 
 字符移动可以用在每行前面增加空格的方法实现
+
 	print("      ###")
 	print("     #   ")
 	print("     #   ")
@@ -31,6 +32,7 @@
 	print("      ###")
       
 [作业L1源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_03/moving_my_name.py)
+
 	import os  
 	import time
 	myname=["#      #   #####      #           "," #   #     #    #     #           ","  # #      #####      #           ","   #       #    #     #           ","   #       #####      #######     "]
@@ -49,10 +51,12 @@
 ###（1）作业L2：
 
 字符串变成列表
+
 	a = "test"
 	l = list(a)
 
 列表变成字符串
+
 	a = "".join(l)
 	
 ##4.结果
