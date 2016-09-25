@@ -64,19 +64,55 @@
 
 	import time
 	import os
-	a=("##@##@\n")
-	b=("##@##@##@##@##@##@\n")
-	c=("##@##@##@##@##@##@##@##@#\n")
-	d=("##@\n")
-	e=("                ##@##\n")
-	f=("                              ##@\n")
-	li=[15*a+2*b,4*c+8*d,2*b+15*e,8*f+4*c]
+
+	a=("################\n")
+	b=("################")
+	c=("                \n")
+	d=("                ")
+	li0=[2*d+a,d+2*b+a,b+d+b+d+a,2*d+a,2*d+a]
+	li1=[2*d+a,3*d+a,4*b+a,3*d+a,2*d+a]
+
+
 	i=0
-	while i<20:
-	    print(li[i%4])
-	    time.sleep(1)
+	while i<5:
+	    j=0
+	    while j<8:
+	        print(li0[i])
+	        j=j+1
 	    i=i+1
-	    os.system('cls')
+	time.sleep(5)
+	os.system('cls')
+
+	k=0
+	while i<5:
+	    j=0
+	    while j<8:
+	        print(li1[k])
+	        j=j+1
+	    k=k+1
+	time.sleep(5)
+	os.system('cls')
+
+	l=5
+	while i>0:
+	    j=0
+	    while j<8:
+	        print(li0[l])
+	        j=j+1
+	    l=l-1
+	time.sleep(5)
+	os.system('cls')
+
+	m=5
+	while m>0:
+	    j=0
+	    while j<8:
+	        print(li0[i])
+	        j=j+1
+	    m=m-1
+	time.sleep(5)
+	os.system('cls')
+
     
 
 
