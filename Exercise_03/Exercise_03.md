@@ -66,8 +66,7 @@
 
 L1结果：
 
-![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_03/moving.JPG)
-![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_03/moving1.JPG)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_03/moving_my_name.gif)
 
 L2结果：
 
