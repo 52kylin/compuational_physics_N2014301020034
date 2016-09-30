@@ -23,7 +23,7 @@
 
 
 
-  [源代码：](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_02/print_my_name.py)
+  [点击擦看源代码：](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_02/print_my_name.py)
   
     print("YY       YY          A            N         N    GGGGGGGGGG     BBBBBBB       II             A             OOOOOOOO    LL            II    N         N")
     print(" YY     YY          AAA           NN        N   G          G    B      B      II            A A           O        O   LL            II    NN        N")
