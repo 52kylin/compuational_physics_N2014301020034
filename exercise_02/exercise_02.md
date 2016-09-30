@@ -44,7 +44,7 @@
 
   程序运行结果：
   
-[](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_02/myname.JPG)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_02/myname.JPG)
 
 ##5.致谢
 
