@@ -2,7 +2,7 @@
 - [X] [Exercise_01:Create a Github acount and set up a repositor  ](https://github.com/52kylin/compuational_physics_N2014301020034/blob/Exercise_01/README.md)
 - [X] [Exercise_02:Print_my_name ](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_02:print_my_name.py)
 - [X] [Exercise_03:moving_my_name](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/Exercise_03)
-- [ ] [Exercise_04:Capter 1 proble1.5:The decay of two kinds of particles ]()
+- [ ] [Exercise_04:Capter 1 proble1.5:The decay of two kinds of particles ](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_04/Exercise_04.md)
 - [ ] [Exercise_05:Capter 1 proble1.6:Population growth ]()
 - [ ] [Exercise_06:Capter 2 proble2.9&2.10:The cannon ]()
 - [ ] [Exercise_07:Capter 2 proble2.19:The spin of baseball and Visual motion of baseball ]()
