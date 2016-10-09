@@ -33,6 +33,10 @@ class decay_A_and_B:
         for i in range(len(self.t)):
             print(self.t[i],"   ", self.n_a[i],"  ",self.n_b[i], file = myfile)
         myfile.close()
+a=decay_A_and_B()
+a.calcualtion()
+a.show_result()
+a.store_results()  
    class test_result(decay_A_and_B):
     def show_result(self):
         self.exact_a=[]
