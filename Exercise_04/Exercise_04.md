@@ -16,16 +16,11 @@ where for simplicity we have assumed that the two types of decay are characteriz
 
 ##3.正文
   
-  
-    
-根据题设可以解出Na和Nb的数学表达式：
-
-  <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_04/1.5_2.JPG)
-</div>
-
+现编一个程序模拟衰变过程A和B两种原子数量的变化过程
 [源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_04/problem1.5_1.py)
 
+
+下面的程序是两种计算方法的比较
 [源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_04/problem1.5_2.py)   
    
 ##4.结论
@@ -35,13 +30,15 @@ where for simplicity we have assumed that the two types of decay are characteriz
   <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_04/result1.5_1.JPG)
 </div>
+从结果来看，两种原子，A原子逐渐减少，B原子逐渐增加，最后处于稳定
+
 
 程序运行结果2
 
   <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_04/result1.5_2.JPG)
 </div>
-
+两种方法有差别，偏差来自高阶小量的舍弃与否
 
 ##5.致谢
 
