@@ -24,8 +24,9 @@ where for simplicity we have assumed that the two types of decay are characteriz
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_04/1.5_2.JPG)
 </div>
 
-源代码[](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_04/problem1.5_1.py)
-源代码[](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_04/problem1.5_2.py)   
+[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_04/problem1.5_1.py)
+
+[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_04/problem1.5_2.py)   
    
 ##4.结论
 
