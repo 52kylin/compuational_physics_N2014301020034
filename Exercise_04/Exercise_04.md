@@ -23,14 +23,19 @@
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_04/1.5_2.JPG)
 </div>
 
-   源代码[]()
+   源代码1[](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_04/problem1.5_1.py)
    
+   源代码2[](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_04/problem1.5_2.py)
    
    
 ##4.结论
-  程序运行结果
+  程序运行结果1
   <div align=center>
-![]()
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_04/result1.5_1.JPG)
+</div>
+ 程序运行结果2
+  <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_04/result1.5_2.JPG)
 </div>
 
 
