@@ -9,16 +9,16 @@
 ##3.正文
    <div
 align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_05/5_1.png)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_05/5_1.PNG)
 </div>
    <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_05/5_2.png)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_05/5_2.PNG)
 </div>
    <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_05/5_3.png)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_05/5_3.PNG)
 </div>
    <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_05/5_4.png)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_05/5_4.PNG)
 </div>
 [源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_05/exercise_05.py)
 ##4.结论
