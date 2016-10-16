@@ -2,6 +2,8 @@
 
 ##1.摘要
 
+完成习题2.6
+2.6 Use the Euler method to calculate cannon shell trajettories ignoring both air drag and the ffect of air density (actually,ignoring the former automatically rules out the latter).Compare your rresults with those in Figure 2.4,and with the exact solution
 ##2.背景
 
 ##3.正文
