@@ -4,7 +4,7 @@
 - [X] [Exercise_03:moving_my_name](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/Exercise_03)
 - [X] [Exercise_04:Capter 1 proble1.5:The decay of two kinds of particles ](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_04/Exercise_04.md)
 - [X] [Exercise_05:Capter 2 proble2.6:Cannon shell ](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_05/exercise_05.md)
-- [ ] [Exercise_06:Capter 2 proble2.9&2.10:The cannon ]()
+- [X] [Exercise_06:Capter 2 proble2.10:The cannon ](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/exercise_06.md)
 - [ ] [Exercise_07:Capter 2 proble2.19:The spin of baseball and Visual motion of baseball ]()
 - [ ] [Exercise_08:Capter 3 proble3.4:Non-linear oscillator ]()
 - [ ] [Exercise_09:Capter 3 proble3.16:Strange attractor ]()
