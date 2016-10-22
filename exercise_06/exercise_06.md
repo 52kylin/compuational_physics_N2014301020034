@@ -1,6 +1,16 @@
 #exercise_06
+***
+***
 ##Abstract
+***
+***
 ##Background
-##exercise
+***
+***
+##Exercise
+***
+***
 ##Conclusion
+***
+***
 ##Acknowledge
