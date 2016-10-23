@@ -49,6 +49,19 @@ finite difference form
  <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/gongshi7.PNG)
 </div>
+Resistance
+
+the magnitude of the drag force is given by 
+
+ <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/gongshi8.PNG)
+</div>
+
+the componets of the drag force 
+
+ <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/gongshi9.PNG)
+</div>
 
 ##Conclusion
 ***
