@@ -69,7 +69,21 @@ Euler method with resistance
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/gongshi10.PNG)
 </div>
 
-
+[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/edit/master/exercise_06/exercise_06.py)
 ##Conclusion
 ***
+ <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/jieguo1.PNG)
+</div>
+ <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/jieguo2.PNG)
+</div>
+ <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/jieguo3.PNG)
+</div>
+ <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/jieguo4.PNG)
+</div>
+
+
 ##Acknowledge
