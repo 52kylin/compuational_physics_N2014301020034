@@ -25,7 +25,30 @@ the work done by the drag force in time dt is Fdragvdt=Eair
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/gongshi2.PNG)
 </div>
 C is known as the drag coefficient 
+New equation with Euler method 
+ <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/gongshi3.PNG)
+</div>
 
+Projectile motion
+
+Newton’s second law in two spatial dimensions 
+
+ <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/gongshi4.PNG)
+</div>
+
+Euler method for second-order ODE
+write each of these second-order equations as two firest-order differential equations 
+ <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/gongshi5.PNG)
+</div>
+
+finite difference form 
+
+ <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/gongshi6.PNG)
+</div>
 
 ##Conclusion
 ***
