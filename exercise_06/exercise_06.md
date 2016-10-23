@@ -47,7 +47,7 @@ write each of these second-order equations as two firest-order differential equa
 finite difference form 
 
  <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/gongshi6.PNG)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/gongshi7.PNG)
 </div>
 
 ##Conclusion
