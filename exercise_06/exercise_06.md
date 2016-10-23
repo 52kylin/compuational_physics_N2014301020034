@@ -63,6 +63,13 @@ the componets of the drag force
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/gongshi9.PNG)
 </div>
 
+Euler method with resistance 
+
+ <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/gongshi10.PNG)
+</div>
+
+
 ##Conclusion
 ***
 ##Acknowledge
