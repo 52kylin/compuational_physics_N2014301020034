@@ -72,24 +72,35 @@ Euler method with resistance
 
 ##Conclusion
 ***
+
+
+没有风阻
  <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/jieguo1.PNG)
 </div>
+
+
+综合影响
  <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/jieguo2.PNG)
 </div>
+
+
+没有风阻
  <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/jieguo3.PNG)
 </div>
+
+综合影响
  <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/jieguo4.PNG)
 </div>
 
 将运行结果产生的能击中目标的初速度和角度储存，再从中找到最小的速度：
 
-[运行数据](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/1.txt)
+[没有风阻运行数据](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/1.txt)
 
-[运行数据](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/2.txt)
+[综合影响运行数据](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/2.txt)
 
 没有风阻时能击中目标的最小速度为大约315米每秒
 
