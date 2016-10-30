@@ -43,7 +43,7 @@
   <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_07/figure_12.png)
 </div>
-####Lyapunov 
+####Lyapunov exponent
 [code](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_07/e.py)
   <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_07/figure_4.png)
@@ -52,9 +52,10 @@
 
 
 
-##problem3.14
-[code](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_07/exercise_07.py)
+#作业：problem3.14
 
+
+[code](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_07/exercise_07.py)
 
   <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_07/figure_1.png)
@@ -67,3 +68,4 @@
   <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_07/figure_3.png)
 </div>
+从上面的三个图中可以看出，阻尼的不同Lyapunov exponent 为0
