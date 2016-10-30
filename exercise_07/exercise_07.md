@@ -9,7 +9,7 @@
 </div>
 
   <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_07/figure_2.png)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_07/figure__2.png)
 </div>
 
   <div align=center>
