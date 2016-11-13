@@ -49,7 +49,7 @@ class pendulum:
                 B = self.xita[i]+self.omiga[i+1]*self.dt
                 while B > math.pi:
                     B = B -2*math.pi
-                while B <=math.pi:
+                while B <= -math.pi:
                     B = B +2*math.pi
                 self.xita.append(B)
                 #if self.t[i] >= 900*math.pi and self.t[i] % (3*math.pi) <= self.dt:
