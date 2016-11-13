@@ -78,6 +78,6 @@ print("game over")
 ```
 
 ##结果
-    <div align=center>
+   <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_08/figure_1.png)
 </div>
