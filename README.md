@@ -6,7 +6,7 @@
 - [X] [Exercise_05:Capter 2 proble2.6:Cannon shell ](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_05/exercise_05.md)
 - [X] [Exercise_06:Capter 2 proble2.10:The cannon ](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/exercise_06.md)
 - [X] [Exercise_07:Capter 3 proble3.14:unliner pendulums](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_07/exercise_07.md)
-- [ ] [Exercise_08:Capter 3 proble3.4:Non-linear oscillator ]()
+- [X] [Exercise_08:Capter 3 proble3.18~3.21:ROUTES TO CHAOS:PERIOD DOUBLING ](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_08/exercise_08.md)
 - [ ] [Exercise_09:Capter 3 proble3.16:Strange attractor ]()
 - [ ] [Exercise_10:Capter 3 proble3.31:Billiard ball on diverse table ]()
 - [ ] [Exercise_11:Capter 4 proble4.11:The percession of Mercury ]()
