@@ -7,10 +7,43 @@
 #第八次作业
 
 ##题目
-**3.20**
-calculate the bifurcation diagram for the pendulum in the     vicinity of F<sub>D</sub>=1.35 to 1.5. Make a magnified a plot of the diagram (as compare to figure 3.11) and obtain an estimate of the Feigenbaum parameter.
+**3.21**
+Investigate the bifurcation diagrams found for the pendulum with other values of the drive frequency and damping parameter.(warning: this can easily become an ambitious project! 
 
 ##分析
+
+**常微分方程：**
+
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_08/1.PNG)
+</div>
+
+**方程可改写成：**
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_08/2.PNG)
+</div>
+
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_08/3.PNG)
+</div>
+
+**Eular_cromer method编程**
+
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_08/4.PNG)
+</div>
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_08/5.PNG)
+</div>
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_08/6.PNG)
+</div>
+
+
+
+
+
+
 ##代码
 
 ```python
