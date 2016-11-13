@@ -11,7 +11,7 @@
 calculate the bifurcation diagram for the pendulum in the     vicinity of F<sub>D</sub>=1.35 to 1.5. Make a magnified a plot of the diagram (as compare to figure 3.11) and obtain an estimate of the Feigenbaum parameter.
 
 ##分析
-
+##代码
 
 ```python
 # -*- coding: utf-8 -*-
@@ -77,3 +77,7 @@ a.show_results()
 print("game over")
 ```
 
+##结果
+    <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_08/figure_1.png)
+</div>
