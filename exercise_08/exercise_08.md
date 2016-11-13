@@ -114,3 +114,4 @@ print("game over")
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_08/figure_2.png)
 </div>
+###注：vpthon多次安装失败，可视化演示未成功完成。
