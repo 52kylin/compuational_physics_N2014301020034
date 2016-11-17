@@ -91,7 +91,7 @@ while 1 :
         Y  = ((1+K)*Ry-K*Vy*dt)/(1+K)
         if Y > a:
             k  =  (Ry-a)/(a-(Ry-Vy*dt))
-            x0 =  ((1+k)*Ry-k*Vy*dt)/(1+k)
+            x0 =  ((1+k)*Rx-k*Vx*dt)/(1+k)
             Rx =  x0
             Ry =  a
             wugui.goto(Rx,Ry)
@@ -109,7 +109,7 @@ while 1 :
             continue
         if Y < -a:
             k  =  (Ry+a)/(-a-(Ry-Vy*dt))
-            x0 =  ((1+k)*Ry-k*Vy*dt)/(1+k)
+            x0 =  ((1+k)*Rx-k*Vx*dt)/(1+k)
             Rx =  x0
             Ry =  -a
             wugui.goto(Rx,Ry)
@@ -121,7 +121,7 @@ while 1 :
         Y  = ((1+K)*Ry-K*Vy*dt)/(1+K)
         if Y > a:
             k  =  (Ry-a)/(a-(Ry-Vy*dt))
-            x0 =  ((1+k)*Ry-k*Vy*dt)/(1+k)
+            x0 =  ((1+k)*Rx-k*Vx*dt)/(1+k)
             Rx =  x0
             Ry =  a
             wugui.goto(Rx,Ry)
@@ -139,7 +139,7 @@ while 1 :
         continue
         if Y < -a:
             k  =  (Ry+a)/(-a-(Ry-Vy*dt))
-            x0 =  ((1+k)*Ry-k*Vy*dt)/(1+k)
+            x0 =  ((1+k)*Rx-k*Vx*dt)/(1+k)
             Rx =  x0
             Ry =  -a
             wugui.goto(Rx,Ry)
@@ -148,7 +148,7 @@ while 1 :
             continue
     if Ry > a and Rx < a and Rx > -a:
         k  =  (Ry-a)/(a-(Ry-Vy*dt))
-        x0 =  ((1+k)*Ry-k*Vy*dt)/(1+k)
+        x0 =  ((1+k)*Rx-k*Vx*dt)/(1+k)
         Rx =  x0
         Ry =  a
         wugui.goto(Rx,Ry)
@@ -157,7 +157,7 @@ while 1 :
         continue
     if Ry < -a and Rx < a and Rx > -a:
         k  =  (Ry+a)/(-a-(Ry-Vy*dt))
-        x0 =  ((1+k)*Ry-k*Vy*dt)/(1+k)
+        x0 =  ((1+k)*Rx-k*Vx*dt)/(1+k)
         Rx =  x0
         Ry =  -a
         wugui.goto(Rx,Ry)
@@ -185,7 +185,7 @@ while 1 :
         continue
     if Ry > a and Rx < a and Rx > -a: #y=a边界
         k  =  (Ry-a)/(a-(Ry-Vy*dt))
-        x0 =  ((1+k)*Ry-k*Vy*dt)/(1+k)
+        x0 =  ((1+k)*Rx-k*Vx*dt)/(1+k)
         Rx =  x0
         Ry =  a
         wugui.goto(Rx,Ry)
@@ -194,7 +194,7 @@ while 1 :
         continue
     if Ry < -a and Rx < a and Rx > -a: #y=-a边界
         k  =  (Ry+a)/(-a-(Ry-Vy*dt))
-        x0 =  ((1+k)*Ry-k*Vy*dt)/(1+k)
+        x0 =  ((1+k)*Rx-k*Vx*dt)/(1+k)
         Rx =  x0
         Ry =  -a
         wugui.goto(Rx,Ry)
