@@ -15,7 +15,7 @@
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/zfxquyu.gif)
    </div>
    <div align=center>
-[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/fzntan_zhengfangxing_old.py)
+[[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/fantan_zhengfangxing_old.py)]
 </div>
 
 
@@ -27,6 +27,6 @@
    </div>
 
    <div align=center>
-[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/circle.py)
+[[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/circle.py)]
 </div>
 
