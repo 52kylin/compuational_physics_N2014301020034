@@ -4,7 +4,12 @@
 标签（空格分隔）： python
 
 ---
-
+<center>**让乌龟耍耍**</center>
+<center>正方形区域</center>
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/zfxquyu.gif)
+   </div>
+<center>源代码</center>
 ```python
 # -*- coding: utf-8 -*-
 """
@@ -206,17 +211,18 @@ chuangkou.exitonclick()
 ```
 
 
+
+
+
+
+
+
+<center>圆形区域</center>
    <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/zfxquyu.gif)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/turtle.gif)
    </div>
 
-
-
-
-
-
-
-
+<center>源代码</center>
 ```python
 # -*- coding: utf-8 -*-
 """
@@ -263,6 +269,4 @@ while i<= int(360/omega):
 chuangkou.exitonclick() 
 
 ```
-   <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/turtle.gif)
-   </div>
+
