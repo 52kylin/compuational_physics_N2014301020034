@@ -1,0 +1,12 @@
+V=(Vx*Vx+Vy*Vy)**(1/2)
+R=(Rx*Rx+Ry*Ry)**(1/2)
+nx=Rx/R
+ny=Ry/R
+tx=Ry/R
+ty=-Rx/R
+Vnx=V*nx
+Vny=V*ny
+Vtx=V*tx
+Vty=V*ty
+Vx=Vnx+Vtx
+Vy=Vny+Vty
