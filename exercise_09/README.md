@@ -206,7 +206,9 @@ chuangkou.exitonclick()
 ```
 
 
-
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/zfxquyu.gif)
+   </div>
 
 
 
