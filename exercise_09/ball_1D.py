@@ -8,7 +8,7 @@ wall_right   = box(pos=(+6,0,0), size=(0.1,12,12), color=color.green)
 wall_left    = box(pos=(-6,0,0), size=(0.1,12,12), color=color.green)
 
 dt = 0.05
-ball1.velocity = vector(6,4,3)
+ball1.velocity = vector(6,0,0)
 
 while True:
     rate(1/dt)
