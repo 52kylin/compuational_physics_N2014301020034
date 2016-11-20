@@ -30,3 +30,15 @@
 [[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/circle.py)]
 </div>
 
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_1D.gif)
+   </div>
+    <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_2D.gif)
+   </div>
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_3D.gif)
+   </div>
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_3D_three.gif)
+   </div>
