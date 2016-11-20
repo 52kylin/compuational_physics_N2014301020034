@@ -1,1 +1,1 @@
-&copyright,52kylin
+©52kylin
