@@ -82,4 +82,4 @@
    </div>
 
 
-**经过多次尝试章终于通过安装python(xy)成功安装vpython并实现动画演示**
+**经过多次尝试章终于通过安装[python(xy)](http://www.softpedia.com/get/Programming/Other-Programming-Files/Python-x-y.shtml)成功安装vpython并实现动画演示**
