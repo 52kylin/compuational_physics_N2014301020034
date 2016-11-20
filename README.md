@@ -7,7 +7,7 @@
 - [X] [Exercise_06:Capter 2 proble2.10:The cannon ](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_06/exercise_06.md)
 - [X] [Exercise_07:Capter 3 proble3.14:unliner pendulums](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_07/exercise_07.md)
 - [X] [Exercise_08:Capter 3 proble3.18~3.21:ROUTES TO CHAOS:PERIOD DOUBLING ](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_08/exercise_08.md)
-- [ ] [Exercise_09:Capter 3 proble3.16:Strange attractor ](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/exercise_09)
+- [X] [Exercise_09:Capter 3 proble3.？: ](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/exercise_09)
 - [ ] [Exercise_10:Capter 3 proble3.31:Billiard ball on diverse table ]
 - [ ] [Exercise_11:Capter 4 proble4.11:The percession of Mercury ]
 - [ ] [Exercise_12:Capter 4 proble4.18:The kirwood Gap ]
