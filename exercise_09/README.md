@@ -1,16 +1,16 @@
 #第九次作业
 
 
+**部分程序需要将必要的python文件放在同一文件夹下才能运行**
 
-
-##边界的处理
+##一，边界的处理
 
 
 **用二分法处理边界【以正方形为例（不考虑球的半径，若要考虑，则减去球的半径即可）】**
-###首先划分区域：
--内部为 1
--边界为 0
--外部为-1
+###1，首先划分区域：
+- 内部为 1
+- 边界为 0
+- 外部为-1
 ```python
 def inZhengfangxing(x,y,a):
     if x > -a and x < a and y > -a and y < a :
@@ -24,7 +24,9 @@ def inZhengfangxing(x,y,a):
         return -1
 ```
 
-###通过取中点的办法逼近边界
+###2，通过取中点的办法逼近边界
+
+(x1,y1)在正方形内部，(x2,y2)在正方形外部
 ```python
 def Zhengfangxing_erFenbijin(x1,y1,x2,y2,r,a):
     x0=0
@@ -44,20 +46,14 @@ def Zhengfangxing_erFenbijin(x1,y1,x2,y2,r,a):
             break  
     return [x0,y0]
 ```
-
-
-
-
-
-
-
+返回值(x0,y0)在边界上
 
 
 
 
 ##平面碰撞演示
 
-**正方形区域**
+- 1,**正方形区域**
 [[源代码1.0版本](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/fantan_zhengfangxing_old.py)]
 [[源代码2.0版本](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/fantan_zhengfangxing_new.py)]
    <div align=center>
@@ -67,7 +63,7 @@ def Zhengfangxing_erFenbijin(x1,y1,x2,y2,r,a):
 
 
 
-**圆形区域**
+- 2,**圆形区域**
 [[源代码1.0版本](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/circle.py)]
 [[源代码2.0版本](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/fantan_yuan.py)]
 
@@ -76,14 +72,14 @@ def Zhengfangxing_erFenbijin(x1,y1,x2,y2,r,a):
    </div>
 
 
-**破缺圆**
+- 3,**破缺圆**
 [[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/fantan_poqueyuan.py)]
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/poqueyuan.gif)
    </div>
 
 
-*椭圆区域*
+- 4,*椭圆区域*
 [[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/tuoyuan.py)]
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/tuoyuan.gif)
@@ -116,26 +112,26 @@ def Zhengfangxing_erFenbijin(x1,y1,x2,y2,r,a):
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_8.png)
    </div>
-
+显然，$a/r>0.1$时出先混沌现象
 
 
 ##vpython演示
-一维碰撞
+- 1,一维碰撞
 [[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_1D.py)]
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_1D.gif)
    </div>
-二维碰撞
+- 2,二维碰撞
 [[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_2D.py)]
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_2D.gif)
    </div>
-三维碰撞
+- 3,三维碰撞
 [[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_3D.py)]
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_3D.gif)
    </div>
-三维碰撞多球
+- 4,三维碰撞多球
 [[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_3D_three.py)]
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_3D_three.gif)
