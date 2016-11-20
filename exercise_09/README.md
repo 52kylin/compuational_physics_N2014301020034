@@ -114,6 +114,15 @@ def Zhengfangxing_erFenbijin(x1,y1,x2,y2,r,a):
    </div>
 显然，a/r>=0.1时出先混沌现象
 
+部分椭圆的v-x图像
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_10.png)
+   </div>
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_11.png)
+   </div>
+
+
 
 ##四 vpython演示
 一维碰撞
