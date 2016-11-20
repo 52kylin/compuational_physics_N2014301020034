@@ -3,7 +3,7 @@
 
 **部分程序需要将必要的python文件放在同一文件夹下才能运行**
 
-##一，边界的处理
+##一 边界的处理
 
 
 **用二分法处理边界【以正方形为例（不考虑球的半径，若要考虑，则减去球的半径即可）】**
@@ -51,9 +51,9 @@ def Zhengfangxing_erFenbijin(x1,y1,x2,y2,r,a):
 
 
 
-##平面碰撞演示
+##二 平面碰撞演示
 
-- 1,**正方形区域**
+**正方形区域**
 [[源代码1.0版本](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/fantan_zhengfangxing_old.py)]
 [[源代码2.0版本](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/fantan_zhengfangxing_new.py)]
    <div align=center>
@@ -63,7 +63,7 @@ def Zhengfangxing_erFenbijin(x1,y1,x2,y2,r,a):
 
 
 
-- 2,**圆形区域**
+**圆形区域**
 [[源代码1.0版本](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/circle.py)]
 [[源代码2.0版本](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/fantan_yuan.py)]
 
@@ -72,20 +72,20 @@ def Zhengfangxing_erFenbijin(x1,y1,x2,y2,r,a):
    </div>
 
 
-- 3,**破缺圆**
+**破缺圆**
 [[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/fantan_poqueyuan.py)]
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/poqueyuan.gif)
    </div>
 
 
-- 4,*椭圆区域*
+*椭圆区域*
 [[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/tuoyuan.py)]
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/tuoyuan.gif)
    </div>
 
-##速度位置关系
+##三 速度位置关系
 
 [[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/poYuan.py)]
    <div align=center>
@@ -112,26 +112,26 @@ def Zhengfangxing_erFenbijin(x1,y1,x2,y2,r,a):
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_8.png)
    </div>
-显然，$a/r>0.1$时出先混沌现象
+显然，a/r>=0.1时出先混沌现象
 
 
-##vpython演示
-- 1,一维碰撞
+##四 vpython演示
+一维碰撞
 [[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_1D.py)]
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_1D.gif)
    </div>
-- 2,二维碰撞
+二维碰撞
 [[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_2D.py)]
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_2D.gif)
    </div>
-- 3,三维碰撞
+三维碰撞
 [[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_3D.py)]
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_3D.gif)
    </div>
-- 4,三维碰撞多球
+三维碰撞多球
 [[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_3D_three.py)]
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_3D_three.gif)
