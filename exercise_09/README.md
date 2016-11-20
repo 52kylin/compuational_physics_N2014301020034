@@ -57,11 +57,31 @@
 
 
 **v-x**
-| 项目        |||
-| --------   | -----:  | :----:  |
-|![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_1.png)|![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_1.png)|![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_1.png)|
-|![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_1.png)||![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_1.png)|
-|![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_1.png)|![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_1.png)|![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_1.png)|
+[[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/poYuan.py)]
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_1.png)
+   </div>
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_2.png)
+   </div>
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_3.png)
+   </div>
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_4.png)
+   </div>
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_5.png)
+   </div>
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_6.png)
+   </div>
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_7.png)
+   </div>
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_8.png)
+   </div>
 
 
 
