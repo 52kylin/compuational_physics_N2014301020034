@@ -2,7 +2,7 @@
 #第九次作业
 
 
-**部分程序需要将必要的python文件放在同一文件夹下才能运行**
+**部分程序需要将必要的python文件放在同一文件夹下才能运行【上方文件夹中找不到的文件到[这里](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/exercise_09)找】**
 
 ##一 边界的处理
 
