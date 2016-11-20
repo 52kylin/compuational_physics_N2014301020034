@@ -32,7 +32,7 @@ i=0
 while 1 :
     Rx=Rx+Vx*dt
     Ry=Ry+Vy*dt
-    if Ry*(Ry-Vy)<0:
+    if Ry*(Ry-Vy*dt)<0:
         k=(Ry-0)/(0-(Ry-Vy*dt))
         x0=((1+k)*Rx-k*Vx*dt)/(1+k)
         R_x+=[x0]
