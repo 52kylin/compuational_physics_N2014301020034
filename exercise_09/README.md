@@ -1,15 +1,61 @@
-
-# wugui
-
-标签（空格分隔）： python
-
----
+#第九次作业
 
 
-   <div align=center>
-**让乌龟耍耍**
-</div>
 
+
+##边界的处理
+
+
+**用二分法处理边界【以正方形为例（不考虑球的半径，若要考虑，则减去球的半径即可）】**
+###首先划分区域：
+-内部为 1
+-边界为 0
+-外部为-1
+```python
+def inZhengfangxing(x,y,a):
+    if x > -a and x < a and y > -a and y < a :
+        return 1
+    if ( x ==  a and y >= -a and y <= a ) \
+    or ( x == -a and y >= -a and y <= a ) \
+    or ( y ==  a and x >= -a and x <= a ) \
+    or ( y == -a and x >= -a and x <= a ) :
+        return 0
+    else:
+        return -1
+```
+
+###通过取中点的办法逼近边界
+```python
+def Zhengfangxing_erFenbijin(x1,y1,x2,y2,r,a):
+    x0=0
+    y0=0
+    while 1 :
+        x0=(x1+x2)/2
+        y0=(y1+y2)/2
+        if inZhengfangxing(x0,y0,a) ==  1:
+            x1=x0
+            y1=y0
+            continue
+        if inZhengfangxing(x0,y0,a) == -1:
+            x2=x0
+            y2=y0
+            continue
+        if inZhengfangxing(x0,y0,a) ==  0:
+            break  
+    return [x0,y0]
+```
+
+
+
+
+
+
+
+
+
+
+
+##平面碰撞演示
 
 **正方形区域**
 [[源代码1.0版本](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/fantan_zhengfangxing_old.py)]
@@ -17,14 +63,6 @@
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/zfxquyu.gif)
    </div>
-
-
-
-
-
-
-
-
 
 
 
@@ -38,15 +76,11 @@
    </div>
 
 
-
-
-
 **破缺圆**
 [[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/fantan_poqueyuan.py)]
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/poqueyuan.gif)
    </div>
-
 
 
 *椭圆区域*
@@ -55,8 +89,8 @@
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/tuoyuan.gif)
    </div>
 
+##速度位置关系
 
-**v-x**
 [[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/poYuan.py)]
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/figure_1.png)
@@ -85,7 +119,7 @@
 
 
 
-**vpython演示**
+##vpython演示
 一维碰撞
 [[源代码](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_09/ball_1D.py)]
    <div align=center>
@@ -108,4 +142,4 @@
    </div>
 
 
-**经过多次尝试章终于通过安装[python(xy)](http://www.softpedia.com/get/Programming/Other-Programming-Files/Python-x-y.shtml)成功安装vpython并实现动画演示**
+**经过多次尝试章终于通过安装[python(xy)](http://www.softpedia.com/get/Programming/Other-Programming-Files/Python-x-y.shtm)成功安装vpython并实现动画演示**
