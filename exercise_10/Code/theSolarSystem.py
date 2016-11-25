@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import lineCalculate
+import line
 import math
 import pylab as pl
 pi = math.pi
@@ -38,7 +38,7 @@ Vy=[2*pi]
 T =1
 earth = theSolarSystem(Rx,Ry,Vx,Vy,T)
 print("(k,a,b,e,Ds)=",earth)
-lineCalculate.line(earth[4])
+line.line(earth[4])
 
 """
 pl.xlabel("x(AU)")
