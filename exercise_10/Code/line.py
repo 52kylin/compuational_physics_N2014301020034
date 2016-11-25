@@ -13,7 +13,7 @@ def line(Y):
         s=0
         for i in range(len(M)):
             s=s+M[i]*N[i]
-            return s
+        return s
     def fangcha(M,N):
         s=0
         for i in range(len(M)):
