@@ -18,3 +18,16 @@ program to calculate the periods of several planets.
 |Jupiter|1.010|
 |Saturn|0.988|
 
+根据公式：
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_10/Picture/Vmax.jpg)
+</div>
+[计算程序](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_10/Code/initVeltory)
+及数据：
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_10/Picture/planetData.jpg)
+</div>
+算得近日点处速度大小为：
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_10/Picture/initV.PNG)
+</div>
