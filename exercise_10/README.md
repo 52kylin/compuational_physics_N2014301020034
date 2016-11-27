@@ -4,13 +4,14 @@
 with initial conditions chosen to give orbits that are noncircular Calculate T<sup>2</sup>/a<sup>3</sup>
 and compare with the values given in Table 4.2
 
+          
 
 >TABLE4.2
 Comfirmation of Kepler's third law. The results obtained using the planetary orbits
 program to calculate the periods of several planets.
 
 
-<center>
+<div align=center>
 |planet|T<sup>2</sup>/a<sup>3</sup>|
 | --------   | -----:  |
 |Venus|0.997|
@@ -18,4 +19,4 @@ program to calculate the periods of several planets.
 |Mars|1.005|
 |Jupiter|1.010|
 |Saturn|0.988|
-</center>
+</div>
