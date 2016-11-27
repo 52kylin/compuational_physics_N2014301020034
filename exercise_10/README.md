@@ -11,16 +11,3 @@ program to calculate the periods of several planets.
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_10/Picture/Table4.2.PNG)
 </div>
 
-根据公式：
-   <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_10/Picture/Vmax.jpg)
-</div>
-[计算程序](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_10/Code/initVeltory.py)
-及数据：
-   <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_10/Picture/planetData.jpg)
-</div>
-算得近日点处速度大小为：
-   <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_10/Picture/initV.PNG)
-</div>
