@@ -11,9 +11,9 @@
 ###TABLE4.2 
 >Comfirmation of Kepler's third law. The results obtained using the planetary orbits program to calculate the periods of several planets.
 
-   <center>
+   <div align=center>
         ![](http://oggi1a58q.bkt.clouddn.com/Table4.2.PNG)
-   </center>
+   </div>
 
 
 
@@ -51,9 +51,9 @@ pl.xlabel('')
 pl.legend()
 pl.show()
 ```
-   <center>
+   <div align=center>
       ![](http://oggi1a58q.bkt.clouddn.com/Earth.png)
-   </center>
+   </div>
 
 ```python
 # -*- coding: utf-8 -*-
@@ -86,9 +86,9 @@ while 1:
     i  += 1
 chuangkou.exitonclick() 
 ```
-   <center>
+   <div align=center>
        ![](http://oggi1a58q.bkt.clouddn.com/theSolarSystem_Earth.gif)
-   </center>
+   </div>
 
 用以判断相同时间间隔内扫过面积大小并生成图像的程序
 ```python
@@ -187,12 +187,12 @@ pl.ylabel("y(AU)")
 #pl.legend()
 pl.show()
 ```
-   <center>
+   <div align=center>
    ![](http://oggi1a58q.bkt.clouddn.com/Earth_1.PNG)
    结果显示：T^2/a^3=1.00004
    ![](http://oggi1a58q.bkt.clouddn.com/Earth_2.PNG)
    此图及上图中数据的方差可以得出相同时间间隔内扫过面积相等
    ![](http://oggi1a58q.bkt.clouddn.com/Earth_3.PNG)
    此图显示地球轨道为椭圆
-   </center>
+   </div>
 
