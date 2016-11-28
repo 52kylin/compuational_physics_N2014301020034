@@ -189,10 +189,15 @@ pl.show()
 ```
    <div align=center>
    ![](http://oggi1a58q.bkt.clouddn.com/Earth_1.PNG)
+   
    结果显示：T^2/a^3=1.00004
+   
    ![](http://oggi1a58q.bkt.clouddn.com/Earth_2.PNG)
+   
    此图及上图中数据的方差可以得出相同时间间隔内扫过面积相等
+   
    ![](http://oggi1a58q.bkt.clouddn.com/Earth_3.PNG)
+   
    此图显示地球轨道为椭圆
    </div>
 
