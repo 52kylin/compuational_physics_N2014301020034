@@ -9,7 +9,7 @@
 - [X] [Exercise_08:Capter 3 proble3.18~3.21:ROUTES TO CHAOS:PERIOD DOUBLING ](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_08/exercise_08.md)
 - [X] [Exercise_09:Capter 3 proble3.？: ](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/exercise_09_new)
 - [X] [Exercise_10:Capter 4 problem 4.8](https://www.zybuluo.com/52kylin/note/582215)
-- [ ] [Exercise_11:Capter 4 proble4.11:The percession of Mercury ]
+- [X] [Exercise_11:Capter 4 ](https://www.zybuluo.com/52kylin/note/590199)
 - [ ] [Exercise_12:Capter 4 proble4.18:The kirwood Gap ]
 - [ ] [Exercise_13:Capter 5 proble5.7:The Jacobi method v.s. The SOR algorithm ]
 - [ ] [Exercise_14:Capter 6 proble6.15:The realistic string problem ]
