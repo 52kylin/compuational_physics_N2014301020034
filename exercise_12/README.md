@@ -57,6 +57,12 @@ SOR算法
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/E7.PNG)
 </div>
 这就是我们所谓的SOR算法。一般来说，我们设置的Dirichlet边界条件。
+   <div align=center>
+   ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/figure_1.png)
+   </div>
+   <div align=center>
+   ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/figure_1.png)
+   </div>
 
 ```python
 # -*- coding: utf-8 -*-
@@ -213,6 +219,12 @@ show()
 ```
    <div align=center>
    ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/figure_1.png)
+   </div>
+   <div align=center>
+   ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/figure_4.png)
+   </div>
+   <div align=center>
+   ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/figure_5.png)
    </div>
 
 
