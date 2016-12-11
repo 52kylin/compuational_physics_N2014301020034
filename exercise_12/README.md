@@ -26,35 +26,35 @@ that for Jacobi method N<sub>iter</sub>~L<sup>2</sup>, while with SOR N<sub>iter
 ###分析
 正如我们所知，电位满足拉普拉斯方程的空间中，没有任何电荷！
    <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/exercise_12/picture/E1.PNG)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/E1.PNG)
 </div>
 数值上，我们得到的：
    <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/exercise_12/picture/E2.PNG)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/E2.PNG)
 </div>
 特别是，对于2维的情况下：
    <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/exercise_12/picture/E3.PNG)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/E3.PNG)
 </div>
 雅可比的方法
 
 如果我们只使用旧的潜力来计算新的，公式成为：
    <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/exercise_12/picture/E4.PNG)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/E4.PNG)
 </div>
 SOR算法
 
 显然，我们可以利用新的价值观，因为他们成为可用，这意味着：
    <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/exercise_12/picture/E5.PNG)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/E5.PNG)
 </div>
 然后，我们可以考虑
    <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/exercise_12/picture/E6.PNG)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/E6.PNG)
 </div>
 为改变推荐由高斯赛德尔算法。然而，这个选择太保守了。因此，为了加快收敛，我们将改变他潜在的更大的金额计算根据
    <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/exercise_12/picture/E7.PNG)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/E7.PNG)
 </div>
 这就是我们所谓的SOR算法。一般来说，我们设置的Dirichlet边界条件。
 
