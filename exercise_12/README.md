@@ -218,12 +218,14 @@ savefig('methods.png')
 show()
 ```
    <div align=center>
-   ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/figure_1.png)
+   ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/different%20methods.png)
    </div>
-   <div align=center>
+   Jacobi方法：
+   <div align=center>
    ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/figure_4.png)
    </div>
-   <div align=center>
+   SOR方法：
+   <div align=center>
    ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/figure_5.png)
    </div>
 
