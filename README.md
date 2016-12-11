@@ -10,7 +10,7 @@
 - [X] [Exercise_09:Capter 3 proble3.？: ](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/exercise_09_new)
 - [X] [Exercise_10:Capter 4 problem 4.8](https://www.zybuluo.com/52kylin/note/582215)
 - [X] [Exercise_11:Capter 4 ](https://www.zybuluo.com/52kylin/note/590199)
-- [X] [Exercise_12:Capter 5 proble5.7:The Jacobi method v.s. The SOR algorithm ]（https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/exercise_12）
+- [X] [Exercise_12:Capter 5 proble5.7:The Jacobi method v.s. The SOR algorithm ](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/exercise_12 )
 - [ ] [Exercise_13:Capter 5 proble5.7:The Jacobi method v.s. The SOR algorithm ]
 - [ ] [Exercise_14:Capter 6 proble6.15:The realistic string problem ]
 - [ ] [Final Project:用轨道能量分析Kirwood Gap的缝宽 ]
