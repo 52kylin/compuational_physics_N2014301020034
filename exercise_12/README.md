@@ -58,10 +58,10 @@ SOR算法
 </div>
 这就是我们所谓的SOR算法。一般来说，我们设置的Dirichlet边界条件。
    <div align=center>
-   ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/figure_1.png)
+   ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/figure_2.png)
    </div>
    <div align=center>
-   ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/figure_1.png)
+   ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/figure_3.png)
    </div>
 
 ```python
