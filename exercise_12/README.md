@@ -38,13 +38,13 @@ that for Jacobi method N<sub>iter</sub>~L<sup>2</sup>, while with SOR N<sub>iter
 </div>
 雅可比的方法
 
-如果我们只使用旧的潜力来计算新的，公式成为：
+如果我们只使用旧的值来计算新的，公式成为：
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/E4.PNG)
 </div>
 SOR算法
 
-显然，我们可以利用新的价值观，因为他们成为可用，这意味着：
+显然，我们可以利用新的值，因为他们成为可用，这意味着：
    <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/exercise_12/picture/E5.PNG)
 </div>
