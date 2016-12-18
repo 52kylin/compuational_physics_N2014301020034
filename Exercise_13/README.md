@@ -37,5 +37,45 @@
 由于我们的算法只需要的电流值，在以前的时间步长值，因此我们只需要三的时间指标值。我们让Y1对应Y在以前的时间步长，对应于Y Y2和Y3在当前时间步对应于Y在下一时间步骤。在每次迭代之后，我们得到的值Y1 Y2 Y2 Y3的价值得到实现的价值观的更新。
 
 #内容
+编写如下代码：
+```python
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Dec 18 23:17:04 2016
 
-#结果
+@author: Kylin
+"""
+
+from math import*
+from matplotlib.pyplot import*
+
+y1,y2,y3,x,X,Y=[],[],[],[],[],[]
+for i in range(1000):
+    y1 += [ 0.1*exp(-(0.03*i-5)**2) ]
+    y2 += [ 0.1*exp(-(0.03*i-5)**2) ]
+    y3 += [ 0.1*exp(-(0.03*i-5)**2) ]
+    x  += [ i ]
+
+def run(t):
+    for i in range(t):
+        for j in range(1,999):
+            y3[j]=-y1[j]+y2[j+1]+y2[j-1]
+        for k in range(1000):
+            y1[k]=y2[k]
+            y2[k]=y3[k]
+    X.append(x);Y.append(y3)
+
+for i in range(5):
+    m=260+i*5
+    n=511+i*1
+    run(m)
+    p1=subplot(n)
+    p1.plot(X[i],Y[i],'k')
+    p1.set_ylabel('Amplitude')
+show()
+'''
+
+运行结果：
+<div align=center>
+    ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_13/Picture/figure_3.png )
+</div>
