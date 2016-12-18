@@ -73,7 +73,7 @@ for i in range(5):
     p1.plot(X[i],Y[i],'k')
     p1.set_ylabel('Amplitude')
 show()
-'''
+```
 
 运行结果：
 <div align=center>
