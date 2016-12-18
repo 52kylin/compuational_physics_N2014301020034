@@ -76,6 +76,6 @@ show()
 ```
 
 运行结果：
-<div align=center>
+   <div align=center>
     ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_13/Picture/figure_3.png )
 </div>
