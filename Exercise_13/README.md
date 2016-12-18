@@ -140,3 +140,8 @@ a.show()
    <div align=center>
     ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_13/Picture/figure_4.png )
 </div>
+
+将r改成1.2：
+   <div align=center>
+    ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_13/Picture/figure_5.png )
+</div>
