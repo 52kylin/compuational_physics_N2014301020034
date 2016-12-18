@@ -1,1 +1,41 @@
 
+[TOC]
+
+#摘要
+
+在本篇文章中，我将波动方程和中央采用一端固定条件研究高斯波包演化，三角波和方波包的包。另外，我比较R = 1.2和R = 0.8的结果之间的差异，我发现R = 1.2结果大幅偏离随着时间的推移和R = 0.8可使结果相对稳定。
+
+#背景
+
+波动方程
+   <div align=center>
+    ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_13/Picture/13.1.JPG )
+</div>
+这通常被称为波动方程，这个方程出现在许多情况下，包括在字符串中，波的电磁波，在湖面波和声波。虽然我们的方法和结论也适用于其它条件一样，在这里，我们将使用一个适当的语言对一个字符串的波。
+从弦上的波浪运动中推导出方程是没有用的，下面的图说明了线段上的力.。
+   <div align=center>
+    ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_13/Picture/13.2.JPG )
+</div>
+根据牛顿第二定律：
+   <div align=center>
+    ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_13/Picture/13.3.JPG )
+</div>
+然后使用有限差分近似的角度：
+   <div align=center>
+    ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_13/Picture/13.4.JPG )
+</div>从而有：
+   <div align=center>
+    ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_13/Picture/13.5.JPG )
+</div>
+我们的主要目标是开发了一种数值方法求解（6.1）。我们终于可以得到这种方法：
+   <div align=center>
+    ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_13/Picture/13.6.JPG )
+</div>
+
+此处![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_13/Picture/13.7.JPG )
+
+由于我们的算法只需要的电流值，在以前的时间步长值，因此我们只需要三的时间指标值。我们让Y1对应Y在以前的时间步长，对应于Y Y2和Y3在当前时间步对应于Y在下一时间步骤。在每次迭代之后，我们得到的值Y1 Y2 Y2 Y3的价值得到实现的价值观的更新。
+
+#内容
+
+#结果
