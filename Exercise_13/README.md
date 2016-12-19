@@ -148,7 +148,7 @@ a.show()
 
 
 
-[俩行波叠加：]()
+[俩行波叠加：](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_13/Code/code.py)
    <div align=center>
     ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_13/Picture/figure_0.gif )
 </div>
