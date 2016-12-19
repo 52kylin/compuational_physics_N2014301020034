@@ -145,3 +145,10 @@ a.show()
    <div align=center>
     ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_13/Picture/figure_5.png )
 </div>
+
+
+
+[俩行波叠加：]()
+   <div align=center>
+    ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/Exercise_13/Picture/figure_0.gif )
+</div>
