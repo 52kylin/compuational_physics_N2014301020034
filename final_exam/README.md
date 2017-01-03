@@ -152,7 +152,7 @@ Diffusion-limited Aggregation（DLA）扩散限制凝聚，是由Witten和Sander
 ```python
 import pylab as pl
 import numpy as np
-x,y,t,c,d,m=0,0,0,[0],[0],[0]
+x,y,c,d=0,0,[0],[0]
 for i in range(1,1000):
     a=int(np.random.uniform(0,4))
     if   a==0:
@@ -163,7 +163,6 @@ for i in range(1,1000):
         y+=1
     else:
         y-=1
-    m.append(t)
     c.append(x)
     d.append(y) 
 pl.scatter(c,d,s=1)
