@@ -67,15 +67,25 @@ pl.show()
 ##4.扩散过程
 ###4.1分析
 一种方法来描述相同的物理涉及的颗粒的密度，它可以方便地定义，如果该系统包含大量的粒子。为粗粒化，是考虑的空间区域，大到足以容纳大量的颗粒，密度（=质量/体积）地定义。的密度，然后每单位时间的单位体积的概率，表示由z，t），找到一个粒子在（t，y，z）在时间t，因此，P和P服从相同的方程。要找到这个方程，我们专注于个人随机游走。我们假设它被限制在一个简单的立方晶格上采取步骤，它使一个“步”每一个时间步长。P（I，j，k，n）是在时间N（，j，k）的粒子的概率，因为我们是在一个简单的立方晶格，有6个不同的最近邻站点。如果沃克是在这些网站上的时间N - 1，有一个概率为1 / 6，然后将移动到站点（I，j，K）在时间N，因此，总概率到达（I，j，K）是：
+   <div align=center>
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_02.png)
+
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_03.png)
+
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_04.png)
+
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_05.png)
+
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_06.png)
+
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_07.png)
+
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_08.png)
+
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_09.png)
+
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_010.png)
+   </div>
 ###4.2程序
 ```python
 # -*- coding: utf-8 -*-
@@ -117,7 +127,11 @@ plt.show()
 ###4.3结果
 
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_5.png)
-
+从上图中可见：结果为下列分布：
+   <div align=center>
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_011.png)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_012.png)
+   </div>
 
 
 ```python
@@ -142,8 +156,7 @@ pl.grid(True)
 pl.show()
 ```
 
-![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_011.png)
-![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_012.png)
+
 
 1000步：
 
