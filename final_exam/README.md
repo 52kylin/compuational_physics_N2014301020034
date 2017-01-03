@@ -1,4 +1,4 @@
-#随即系统：
+#随机系统：
 ##1.摘要：
 
 随机过程是随机变量的集合，代表随时间变化的随机值系统.。这是一个确定性过程（确定性系统）的概率对应。而不是描述这一过程只能在一个方向进化（如，例如，对一个常微分方程的解），在一个随机的或随机的过程中，有一些不确定性：即使初始条件（或出发点）是已知的，有几个（通常是无限多的）在这过程中可能的发展方向。
@@ -64,8 +64,59 @@ pl.show()
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_6.png)
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_7.png)
 
+##4.扩散过程
+###4.1分析
+一种方法来描述相同的物理涉及的颗粒的密度，它可以方便地定义，如果该系统包含大量的粒子。为粗粒化，是考虑的空间区域，大到足以容纳大量的颗粒，密度（=质量/体积）地定义。的密度，然后每单位时间的单位体积的概率，表示由z，t），找到一个粒子在（t，y，z）在时间t，因此，P和P服从相同的方程。要找到这个方程，我们专注于个人随机游走。我们假设它被限制在一个简单的立方晶格上采取步骤，它使一个“步”每一个时间步长。P（I，j，k，n）是在时间N（，j，k）的粒子的概率，因为我们是在一个简单的立方晶格，有6个不同的最近邻站点。如果沃克是在这些网站上的时间N - 1，有一个概率为1 / 6，然后将移动到站点（I，j，K）在时间N，因此，总概率到达（I，j，K）是：
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_02.png)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_03.png)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_04.png)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_05.png)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_06.png)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_07.png)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_08.png)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_09.png)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_010.png)
+###4.2程序
+```python
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Dec 26 20:12:22 2016
+@author: Kylin
+"""
+import pylab as plt
+import numpy as np 
+N=101
+dx=2./(N-1)
+dt=0.1
+D=1./4*(dx**2)/dt
+class diffusion:
+ 	def __init__(self,step):
+ 		self.step=step
+ 		self.x=np.linspace(-1,1,N)
+ 		self.y=np.linspace(0,0,N)
+ 		self.Y=np.linspace(0,0,N)
+ 		self.y[50]=1
+ 	def run(self):
+ 		for i in range(N):
+ 			self.Y[i]=self.y[i]
+ 		for i in range(1,N-1):
+ 			self.y[i]=self.Y[i]+D*dt/(dx**2)*(self.Y[i+1]+self.Y[i-1]-2*self.Y[i])
+ 	def show(self):
+ 		for i in range(self.step):
+ 			self.run()
+ 			i+=1
+ 		plt.plot(self.x,self.y,label="step="+str(self.step))
+for i in range(4):
+    i=(i+1)
+    A=diffusion(10**i)
+    A.show()
+plt.legend(loc="best")
+plt.show()
+```
 
+###4.3结果
 
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_5.png)
 
 
 
@@ -90,6 +141,9 @@ pl.scatter(c,d,s=1)
 pl.grid(True)
 pl.show()
 ```
+
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_011.png)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_012.png)
 
 1000步：
 
