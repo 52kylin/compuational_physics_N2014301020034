@@ -127,12 +127,27 @@ plt.show()
 ###4.3结果
 
 ![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_5.png)
-从上图中可见：结果为下列分布：
-   <div align=center>
-![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_011.png)
-![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_012.png)
-   </div>
 
+从上图中可见：结果为下列分布：
+
+   <div align=center>
+   
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_011.png)
+
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_012.png)
+
+   </div>
+   
+##5.DLA
+###5.1分析
+
+Diffusion-limited Aggregation（DLA）扩散限制凝聚，是由Witten和Sander于1981年共同提出来的，其基本思想是：首先置一初始粒子作为种子，在远离种子的任意位置随机产生一个粒子使其做无规行走，直至与种子接触，成为集团的一部分；然后再随机产生一个粒子，重复上述过程，这样就可以得到足够大的DLA团簇（cluster）。
+创始人之一Sander曾经总结过DLA 的研究意义： 
+模型用极其简单的算法抓住了广泛的自然现象的关键成分却没有明确的物理机制；
+.通过简单的运动学和动力学过程就可以产生具有标度不变性的自相似的分形结构，从而建立分形理论和实验观察之间的桥梁，在一定程度上揭示出实际体系中分形生长的机理；
+界面具有复杂的形状和不稳定性的性质，生长过程是一个远离平衡的动力学过程，但集团的结构却有稳定且确定的分形维数。
+
+###5.2程序
 
 ```python
 import pylab as pl
@@ -156,7 +171,7 @@ pl.grid(True)
 pl.show()
 ```
 
-
+###5.3结果：
 
 1000步：
 
