@@ -12,5 +12,4 @@
 - [X] [Exercise_11:Capter 4 ](https://www.zybuluo.com/52kylin/note/590199)
 - [X] [Exercise_12:Capter 5 proble5.7:The Jacobi method v.s. The SOR algorithm ](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/exercise_12 )
 - [X] [Exercise_13:Capter 6 Waves ](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/Exercise_13)
-
-- [X] [*Final Project:ramdom walks *](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/final_exam)
+- [X] [期末作业:ramdom walks ](https://github.com/52kylin/compuational_physics_N2014301020034/tree/master/final_exam)
