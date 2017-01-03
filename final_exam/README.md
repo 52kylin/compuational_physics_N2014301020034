@@ -138,21 +138,18 @@ plt.show()
 
    </div>
    
-##5.DLA
+##5.二维随机游走
+
 ###5.1分析
 
-Diffusion-limited Aggregation（DLA）扩散限制凝聚，是由Witten和Sander于1981年共同提出来的，其基本思想是：首先置一初始粒子作为种子，在远离种子的任意位置随机产生一个粒子使其做无规行走，直至与种子接触，成为集团的一部分；然后再随机产生一个粒子，重复上述过程，这样就可以得到足够大的DLA团簇（cluster）。
-创始人之一Sander曾经总结过DLA 的研究意义： 
-模型用极其简单的算法抓住了广泛的自然现象的关键成分却没有明确的物理机制；
-.通过简单的运动学和动力学过程就可以产生具有标度不变性的自相似的分形结构，从而建立分形理论和实验观察之间的桥梁，在一定程度上揭示出实际体系中分形生长的机理；
-界面具有复杂的形状和不稳定性的性质，生长过程是一个远离平衡的动力学过程，但集团的结构却有稳定且确定的分形维数。
+在平面内可以向前后左右四个方向行走，各个方向的概率相同。
 
 ###5.2程序
 
 ```python
 import pylab as pl
 import numpy as np
-x,y,c,d=0,0,[0],[0]
+x,y,X,Y=0,0,[0],[0]
 for i in range(1,1000):
     a=int(np.random.uniform(0,4))
     if   a==0:
@@ -163,9 +160,9 @@ for i in range(1,1000):
         y+=1
     else:
         y-=1
-    c.append(x)
-    d.append(y) 
-pl.scatter(c,d,s=1)
+    X.append(x)
+    Y.append(y) 
+pl.scatter(X,Y,s=1)
 pl.grid(True)
 pl.show()
 ```
