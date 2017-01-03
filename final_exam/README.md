@@ -1,4 +1,52 @@
 
+
+
+
+```python
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Dec 26 18:39:23 2016
+
+@author: Kylin
+"""
+import random
+import pylab as pl
+n=100
+X=[0]*n
+x2=[0]
+x=0
+for i in range(n):
+    r=random.randrange(0,2)
+    if r == 0:
+        dx =-1
+    if r == 1:
+        dx = 1
+    x = x + dx
+    X[i] = x
+    if i < n-1:
+        x2 += [x2[-1]+x*x]
+for i in range(len(x2)):
+    if i==0:
+        x2[i]=x2[i]
+    if i>=1:
+        x2[i]=x2[i]/i
+t = range(n)
+pl.plot(t,X,'o',label='$x$ versus time')
+pl.legend(frameon=True)
+pl.show()
+pl.plot(t,x2,label='$<x^2>$ versus time')
+pl.plot(t,t)
+pl.legend(frameon=True)
+pl.show()
+```
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_6.png)
+![](https://github.com/52kylin/compuational_physics_N2014301020034/blob/master/final_exam/Picture/figure_7.png)
+
+
+
+
+
+
 ```python
 import pylab as pl
 import numpy as np
